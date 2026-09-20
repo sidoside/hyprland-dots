@@ -1,0 +1,97 @@
+{
+    "appearance": {
+        "transparency": {
+            "enabled": true
+        }
+    },
+    "background": {
+        "desktopClock": {
+            "enabled": true,
+            "position": "middle-center"
+        }
+    },
+    "bar": {
+        "activeWindow": {
+            "compact": true,
+            "inverted": true,
+            "showOnHover": true
+        },
+        "clock": {
+            "background": true,
+            "showDate": true
+        },
+        "dragThreshold": 0,
+        "persistent": true,
+        "tray": {
+            "background": true,
+            "compact": true,
+            "recolour": true
+        },
+        "workspaces": {
+            "activeTrail": true,
+            "maxWindowIcons": 5,
+            "occupiedBg": false,
+            "shown": 5
+        }
+    },
+    "dashboard": {
+        "performance": {
+            "showGpu": true
+        }
+    },
+    "launcher": {
+        "useFuzzy": {
+            "actions": true,
+            "apps": true,
+            "schemes": true,
+            "variants": true,
+            "wallpapers": true
+        },
+        "vimKeybinds": true
+    },
+    "lock": {
+        "enableHowdy": true,
+        "maxHowdyTries": 3,
+        "triggerHowdyOnWake": true
+    },
+    "services": {
+        "audioIncrement": 0.01,
+        "brightnessIncrement": 0.01,
+        "useFahrenheit": false
+    },
+    "sidebar": {
+        "enabled": true
+    },
+    "utilities": {
+        "quickToggles": [
+            {
+                "enabled": true,
+                "id": "wifi"
+            },
+            {
+                "enabled": true,
+                "id": "bluetooth"
+            },
+            {
+                "enabled": true,
+                "id": "mic"
+            },
+            {
+                "enabled": true,
+                "id": "settings"
+            },
+            {
+                "enabled": true,
+                "id": "gameMode"
+            },
+            {
+                "enabled": true,
+                "id": "dnd"
+            },
+            {
+                "enabled": true,
+                "id": "vpn"
+            }
+        ]
+    }
+}

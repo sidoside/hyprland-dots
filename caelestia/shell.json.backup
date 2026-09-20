@@ -1,0 +1,82 @@
+{
+    "appearance": {
+        "transparency": {
+            "enabled": true
+        }
+    },
+    "background": {
+        "wallpaperEnabled": true
+    },
+    "bar": {
+        "activeWindow": {
+            "compact": true,
+            "inverted": true
+        },
+        "clock": {
+            "background": true,
+            "showDate": true
+        },
+        "persistent": false,
+        "tray": {
+            "background": true,
+            "compact": true,
+            "recolour": true
+        },
+        "workspaces": {
+            "activeTrail": true,
+            "maxWindowIcons": 5,
+            "occupiedBg": false,
+            "shown": 5
+        }
+    },
+    "launcher": {
+        "useFuzzy": {
+            "actions": true,
+            "apps": true,
+            "schemes": true,
+            "variants": true,
+            "wallpapers": true
+        },
+        "vimKeybinds": true
+    },
+    "services": {
+        "audioIncrement": 0.01,
+        "brightnessIncrement": 0.01,
+        "useFahrenheit": false
+    },
+    "sidebar": {
+        "enabled": true
+    },
+    "utilities": {
+        "quickToggles": [
+            {
+                "enabled": true,
+                "id": "wifi"
+            },
+            {
+                "enabled": true,
+                "id": "bluetooth"
+            },
+            {
+                "enabled": true,
+                "id": "mic"
+            },
+            {
+                "enabled": true,
+                "id": "settings"
+            },
+            {
+                "enabled": true,
+                "id": "gameMode"
+            },
+            {
+                "enabled": true,
+                "id": "dnd"
+            },
+            {
+                "enabled": true,
+                "id": "vpn"
+            }
+        ]
+    }
+}
